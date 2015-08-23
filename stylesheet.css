@@ -34,6 +34,7 @@ p, h2 {
     text-align: justify;
     margin-left: 15mm;
     margin-right: 15mm;
+    font-weight: 200;
 }
 
 h1 {
@@ -44,5 +45,4 @@ h1 {
 
 h2 {
     margin-top: 15mm;
-    font-weight: 200;
 }
