@@ -2,15 +2,9 @@
     box-sizing: border-box;
 }
 
-html {
+body {
     background: #111;
     color: #eee;
-}
-
-body {
-    margin: 0;
-    font-family: source sans pro, sans-serif;
-    letter-spacing: 0.2em;
 }
 
 header {
@@ -23,26 +17,8 @@ header {
     background-position: center;
 }
 
-main {
-    margin: 15mm;
-    max-width: 200mm;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-p, h2 {
-    text-align: justify;
-    margin-left: 15mm;
-    margin-right: 15mm;
-    font-weight: 200;
-}
-
 h1 {
     text-align: center;
     font-weight: 600;
     line-height: 30mm;
-}
-
-h2 {
-    margin-top: 15mm;
 }
