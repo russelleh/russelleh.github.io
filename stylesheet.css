@@ -1,24 +1,39 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    background: #111;
-    color: #eee;
+  background: black;
+  color: white;
+  margin: 0px;
+  font-family: sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 1.5em;
+  text-align: justify;
 }
 
 header {
-    background: #555555;
-    color: white;
-    letter-spacing: 1em;
-    overflow: auto;
-    background-image: url("andromeda.png");
-    background-size: cover;
-    background-position: center;
+  background: #555555;
+  letter-spacing: 1em;
+  overflow: auto;
+  background-image: url("andromeda.png");
+  background-size: cover;
+  background-position: center;
+}
+
+main {
+  max-width: 60em;
+  margin: auto;
+}
+
+.content {
+  margin: 2em;
+  margin-top: 4em;
 }
 
 h1 {
-    text-align: center;
-    font-weight: 600;
-    line-height: 30mm;
+  text-align: center;
+  font-weight: 600;
+  line-height: 30mm;
 }
