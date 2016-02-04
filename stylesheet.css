@@ -22,7 +22,7 @@ header {
   background-position: center;
 }
 
-main {
+main, img {
   max-width: 60em;
   margin: auto;
 }
@@ -38,7 +38,16 @@ h1 {
   line-height: 30mm;
 }
 
+h2 {
+  font-weight: 400;
+}
+
 a {
   text-decoration: none;
   color: #bbf;
+}
+
+small {
+  color: #bbb;
+  font-size: 0.66em;
 }
