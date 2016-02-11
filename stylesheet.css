@@ -52,3 +52,10 @@ small {
   color: #bbb;
   font-size: 0.66em;
 }
+
+#photo {
+  display: block;
+  margin: auto;
+  height: 150px;
+  border-radius: 75px;
+}
