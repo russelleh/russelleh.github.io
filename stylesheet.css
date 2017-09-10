@@ -1,61 +1,42 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
-  background: black;
-  color: white;
-  margin: 0px;
+  margin:      1em;
+  background:  #222;
+  color:       #eee;
   font-family: sans-serif;
-  font-weight: 200;
-  font-size: 16px;
-  line-height: 1.5em;
-  text-align: justify;
 }
 
 header {
-  background: #555555;
-  letter-spacing: 1em;
-  overflow: auto;
-  background-image: url("andromeda.png");
-  background-size: cover;
+  background:          #eee;
+  background-image:    url("andromeda.gif");
   background-position: center;
-}
 
-main, img {
-  max-width: 60em;
-  padding-top: 1em;
-  margin: auto;
-}
-
-.content {
-  margin: 2em;
-  margin-top: 4em;
+  text-align: center;
 }
 
 h1 {
-  text-align: center;
-  font-weight: 600;
-  line-height: 30mm;
+  display:     inline;
+  background:  #222;
+  padding:     0.5em;
+  line-height: 5em;
 }
 
-h2 {
-  font-weight: 400;
+main {
+  width:         40em;
+  margin:        auto;
+  margin-top:    4em;
+  margin-bottom: 4em;
+  line-height:   1.25em;
 }
 
 a {
   text-decoration: none;
-  color: #bbf;
-}
-
-small {
   color: #bbb;
-  font-size: 0.66em;
 }
 
-#photo {
-  display: block;
-  margin: auto;
-  height: 150px;
-  border-radius: 75px;
+img {
+  width: 100%;
+}
+
+.item {
+  margin-top: 4em;
 }
