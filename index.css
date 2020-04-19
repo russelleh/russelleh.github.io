@@ -28,3 +28,6 @@ main {
     padding: 2em; }
   main img {
     width: 100%; }
+
+a {
+  color: inherit; }
